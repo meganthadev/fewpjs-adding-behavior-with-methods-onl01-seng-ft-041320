@@ -5,10 +5,10 @@ class Cat {
   }
   
     speak(){
-      return `${this.name} says meow!`
+      return `${this.name} says meow!`;
     }
-  }
 }
+
  
 class Dog {
   constructor(name, sex){
@@ -17,11 +17,10 @@ class Dog {
   }
   
     speak(){
-      return `${this.name} says woof!`
+      return `${this.name} says woof!`;
     }
-  }
-  }
-}
+ }
+
  
 class Bird {
   constructor(name, sex){
@@ -30,7 +29,11 @@ class Bird {
   }
   
     speak(){
-      return `${this.name} says meow!`
+      if (this.sex === "male"){
+        return `It's me! ${this.name}, the parrot!`;
+      } else {
+        return 
+      }
     }
   }
         
